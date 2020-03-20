@@ -1,11 +1,11 @@
-![DARUMADROP](https://mksd.jp/DARUMADROP_MD.gif "SAMPLE")
+![DARUMADROP](https://mksd.jp/DARUMADROP_r_MD.gif "SAMPLE")
 
 # ■ はじめに
 
- 『Darumdrop-Bold』はManiackers Designが作成し、Google Fontsに提供した新作フォントです。今後予告なく、バージョンアップしていく可能性あります。
+ 『Darumdrop-Regular』はManiackers Designが作成し、Google Fontsに提供した新作フォントです。今後予告なく、バージョンアップしていく可能性あります。
 
 
-# ■『Darumdrop-Bold』について
+# ■『Darumdrop-Regular』について
 Google Fontsの為に完全新作でデザインした味わい深い、和を感じさせる手描きフォントです。
 Darumdropとは民芸のおもちゃ『だるま落とし』の事です。
 民芸、伝統工芸、昭和、和というようなキーワードをイメージしながらデザインしました。
@@ -34,7 +34,7 @@ font LAB / Fontographer 5.2J
 
 
 # ■ 禁止事項
-・作成した派生フォントの名前に「Slackside-Bold」の文字を含めること。
+・作成した派生フォントの名前に「Slackside-Regular」の文字を含めること。
 ・「SIL Open Font License Version 1.1」以外のライセンスで再配布すること。
 ・フォントファイル自体を単体で販売すること。
 
@@ -44,6 +44,7 @@ font LAB / Fontographer 5.2J
 
 
 # ■ 更新履歴
+2020年3月21日 バージョン 1.0（名称変更のみ）
 2019年12月31日 バージョン 1.0
 
 
