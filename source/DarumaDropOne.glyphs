@@ -1,5 +1,5 @@
 {
-.appVersion = "1346";
+.appVersion = "1349";
 copyright = "Copyright 2020 The Daruma Drop Project Authors (https://github.com/ManiackersDesign/darumdrop), all rights reserved.";
 customParameters = (
 {
@@ -25,6 +25,55 @@ designer = "Maniackers Design";
 designerURL = "https://mksd.jp/";
 disablesAutomaticAlignment = 1;
 familyName = "Daruma Drop One";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;\012";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature sups;\012feature frac;\012feature ordn;\012feature vert;\012feature vrt2;\012";
+name = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [cedillacomb lowlinecomb ogonekcomb strokelongcomb];\012	sub [i]' @CombiningTopAccents by [idotless];\012	sub [i]' @CombiningNonTopAccents @CombiningTopAccents by [idotless];\012} ccmp_Other_1;\012";
+name = ccmp;
+},
+{
+automatic = 1;
+code = "sub zero by zerosuperior;\012sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012";
+name = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;\012sub one slash two by onehalf;\012sub three slash four by threequarters;\012";
+name = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012";
+name = ordn;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;\012sub f i by fi;\012sub f l by fl;\012";
+name = liga;
+},
+{
+automatic = 1;
+code = "sub anglebracketleft by anglebracketleft.vert;\012sub anglebracketright by anglebracketright.vert;\012sub blacklenticularbracketleft by blacklenticularbracketleft.vert;\012sub blacklenticularbracketright by blacklenticularbracketright.vert;\012sub cornerbracketleft by cornerbracketleft.vert;\012sub cornerbracketright by cornerbracketright.vert;\012sub dblanglebracketleft by dblanglebracketleft.vert;\012sub dblanglebracketright by dblanglebracketright.vert;\012sub tortoiseshellbracketleft by tortoiseshellbracketleft.vert;\012sub tortoiseshellbracketright by tortoiseshellbracketright.vert;\012sub whitecornerbracketleft by whitecornerbracketleft.vert;\012sub whitecornerbracketright by whitecornerbracketright.vert;\012sub emdash by emdash.vert;\012sub endash by endash.vert;\012";
+name = vert;
+},
+{
+automatic = 1;
+code = "sub anglebracketleft by anglebracketleft.vert;\012sub anglebracketright by anglebracketright.vert;\012sub blacklenticularbracketleft by blacklenticularbracketleft.vert;\012sub blacklenticularbracketright by blacklenticularbracketright.vert;\012sub cornerbracketleft by cornerbracketleft.vert;\012sub cornerbracketright by cornerbracketright.vert;\012sub dblanglebracketleft by dblanglebracketleft.vert;\012sub dblanglebracketright by dblanglebracketright.vert;\012sub tortoiseshellbracketleft by tortoiseshellbracketleft.vert;\012sub tortoiseshellbracketright by tortoiseshellbracketright.vert;\012sub whitecornerbracketleft by whitecornerbracketleft.vert;\012sub whitecornerbracketright by whitecornerbracketright.vert;\012sub emdash by emdash.vert;\012sub endash by endash.vert;\012";
+name = vrt2;
+}
+);
 fontMaster = (
 {
 ascender = 880;
