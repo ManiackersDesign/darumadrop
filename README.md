@@ -4,6 +4,8 @@
 
  『Darumdrop-Regular』はManiackers Designが作成し、Google Fontsに提供した新作フォントです。今後予告なく、バージョンアップしていく可能性あります。
 
+# Darumadrop-Regular
+Newly designed only for Google Fonts: flavorful and Japanese cultural handwritten font. The name Darumdrop means Japanese folk craft toy "Daruma otoshi." This font is designed with the themes of folk craft, traditional craft, Showa, zen, Japanese culture, etc.
 
 # ■『Darumdrop-Regular』について
 Google Fontsの為に完全新作でデザインした味わい深い、和を感じさせる手描きフォントです。
@@ -44,6 +46,8 @@ font LAB / Fontographer 5.2J
 
 
 # ■ 更新履歴
+2020年12月8日 バージョン 1.0（英文の説明を追加）
+
 2020年3月21日 バージョン 1.0（名称変更のみ）
 
 2019年12月31日 バージョン 1.0
