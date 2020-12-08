@@ -1,6 +1,6 @@
 {
 .appVersion = "1349";
-copyright = "Copyright 2020 The Daruma Drop Project Authors (https://github.com/ManiackersDesign/darumdrop), all rights reserved.";
+copyright = "Copyright 2020 The Daruma Drop Project Authors (https://github.com/ManiackersDesign/darumadrop), all rights reserved.";
 customParameters = (
 {
 name = license;
