@@ -1,6 +1,7 @@
 from fontmake import __main__
 from fontTools.ttLib import TTFont, newTable
 import shutil
+import os
 
 __main__.main(("-g","source/DarumadropOne.glyphs", "-o","ttf",))
 
@@ -24,3 +25,7 @@ modifiedFont.save("fonts/ttf/DarumadropOne-Regular.ttf")
 shutil.rmtree("instance_ufo")
 shutil.rmtree("master_ufo")
 shutil.rmtree("master_ttf")
+
+os.system("gftools fix-nonhinting fonts/ttf/DarumadropOne-Regular.ttf fonts/ttf/DarumadropOne-Regular.fix.ttf")
+os.system("mv fonts/ttf/DarumadropOne-Regular.fix.ttf fonts/ttf/DarumadropOne-Regular.ttf")
+os.system("rm fonts/ttf/DarumadropOne-Regular.fix.ttf fonts/ttf/*backup*.ttf")
