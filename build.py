@@ -1,10 +1,11 @@
 from fontmake import __main__
 from fontTools.ttLib import TTFont, newTable
 import shutil
+import os
 
-__main__.main(("-g","source/DarumaDropOne.glyphs", "-o","ttf",))
+__main__.main(("-g","source/DarumadropOne.glyphs", "-o","ttf",))
 
-path = "master_ttf/DarumaDropOne-Regular.ttf"
+path = "master_ttf/DarumadropOne-Regular.ttf"
 
 
 modifiedFont = TTFont(path)
@@ -19,8 +20,12 @@ modifiedFont["DSIG"].signatureRecords = []
 modifiedFont["gasp"] = newTable("gasp")
 modifiedFont["gasp"].gaspRange = {65535: 0x000A} #Font is shipping UNHINTED :D
 
-modifiedFont.save("fonts/ttf/DarumaDropOne-Regular.ttf")
+modifiedFont.save("fonts/ttf/DarumadropOne-Regular.ttf")
 
 shutil.rmtree("instance_ufo")
 shutil.rmtree("master_ufo")
 shutil.rmtree("master_ttf")
+
+os.system("gftools fix-nonhinting fonts/ttf/DarumadropOne-Regular.ttf fonts/ttf/DarumadropOne-Regular.fix.ttf")
+os.system("mv fonts/ttf/DarumadropOne-Regular.fix.ttf fonts/ttf/DarumadropOne-Regular.ttf")
+os.system("rm fonts/ttf/DarumadropOne-Regular.fix.ttf fonts/ttf/*backup*.ttf")

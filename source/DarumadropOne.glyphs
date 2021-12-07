@@ -1,6 +1,6 @@
 {
-.appVersion = "1349";
-copyright = "Copyright 2020 The Daruma Drop Project Authors (https://github.com/ManiackersDesign/darumadrop), all rights reserved.";
+.appVersion = "1352";
+copyright = "Copyright 2020 The Darumadrop Project Authors (https://github.com/ManiackersDesign/darumadrop), all rights reserved.";
 customParameters = (
 {
 name = license;
@@ -24,7 +24,7 @@ date = "2020-10-30 04:39:00 +0000";
 designer = "Maniackers Design";
 designerURL = "https://mksd.jp/";
 disablesAutomaticAlignment = 1;
-familyName = "Daruma Drop One";
+familyName = "Darumadrop One";
 featurePrefixes = (
 {
 automatic = 1;
