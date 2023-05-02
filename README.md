@@ -26,7 +26,7 @@ font LAB / Fontographer 5.2J
 ただし、配布の際はSIL Open Font Licenseに基づいてリリースする必要があります。
 
 ・SILライセンスについて詳しくはライセンス原文日本語サイト
-（ https://ja.osdn.net/projects/opensource/wiki/SIL_Open_Font_License_1.1 ）
+（ https://licenses.opensource.jp/OFL-1.1/OFL-1.1.html ）
 または同梱の「OFL.txt」（英語）をご確認ください。
 
 
